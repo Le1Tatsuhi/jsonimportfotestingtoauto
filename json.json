@@ -1,1 +1,300 @@
-{"_id":"freeones-babes","startUrl":["https://www.freeones.pt/babes"],"selectors":[{"id":"babe-link","multiple":true,"parentSelectors":["_root","pagination"],"selector":"a.teaser__link","type":"SelectorLink"},{"id":"pagination","paginationType":"auto","parentSelectors":["_root","pagination"],"selector":"a.next","type":"SelectorPagination"},{"clickElementSelector":"button.btn-outline.btn-block","clickElementUniquenessType":"uniqueText","clickType":"clickOnce","delay":2000,"discardInitialElements":"do-not-discard","id":"saiba-mais-clck","multiple":true,"parentSelectors":["babe-link"],"selector":".js-read-more-calc-component div.d-flex","type":"SelectorElementClick"},{"id":"babe-nome","multiple":false,"parentSelectors":["babe-link"],"regex":"","selector":"span[data-test='link_span_name']","type":"SelectorText"},{"id":"babe-apelido","multiple":false,"parentSelectors":["babe-link"],"regex":"","selector":"div.profile-meta-item:nth-of-type(1) li:nth-of-type(2) span:nth-of-type(2)","type":"SelectorText"},{"id":"babe-image","multiple":false,"parentSelectors":["babe-link"],"selector":".dashboard-image-large img","type":"SelectorImage"},{"id":"babe-nascimento","multiple":false,"parentSelectors":["babe-link"],"selector":"a[data-test='link_dateOfBirth']","type":"SelectorLink"},{"id":"babe-signo","multiple":false,"parentSelectors":["babe-link"],"regex":"","selector":"a[data-test='link_zodiac']","type":"SelectorText"},{"id":"babe-profissao","multiple":false,"parentSelectors":["babe-link"],"regex":"","selector":"div.profile-meta-item:nth-of-type(1) li:nth-of-type(8) span:nth-of-type(2)","type":"SelectorText"},{"id":"babe-estatus-carreira","multiple":false,"parentSelectors":["babe-link"],"regex":"","selector":"span[data-test='link_span_careerStatus']","type":"SelectorText"},{"id":"babe-inicio-carreira","multiple":false,"parentSelectors":["babe-link"],"regex":"","selector":"span[data-test='link_span_careerStart']","type":"SelectorText"},{"id":"babe-fim-carreira","multiple":false,"parentSelectors":["babe-link"],"regex":"","selector":"li:nth-of-type(11) span.color-text-dark","type":"SelectorText"},{"id":"babe-vidamorte","multiple":false,"parentSelectors":["babe-link"],"regex":"","selector":"li:nth-of-type(12) span.color-text-dark","type":"SelectorText"},{"id":"babe-cidade-nascimento","multiple":false,"parentSelectors":["babe-link"],"regex":"","selector":"a:nth-of-type(1) span[data-test='link_span_placeOfBirth']","type":"SelectorText"},{"id":"babe-estado-nascimento","multiple":false,"parentSelectors":["babe-link"],"regex":"","selector":"a:nth-of-type(2) span[data-test='link_span_placeOfBirth']","type":"SelectorText"},{"id":"babe-pais-nascimento","multiple":false,"parentSelectors":["babe-link"],"regex":"","selector":"a:nth-of-type(3) span[data-test='link_span_placeOfBirth']","type":"SelectorText"},{"id":"babe-naciionalidade","multiple":false,"parentSelectors":["babe-link"],"regex":"","selector":"span[data-test='link_span_nationality']","type":"SelectorText"},{"id":"babe-aparencia-etnia","multiple":false,"parentSelectors":["babe-link"],"regex":"","selector":"span[data-test='link_span_ethnicity']","type":"SelectorText"},{"id":"babe-aparencia-silicone","multiple":false,"parentSelectors":["babe-link"],"regex":"","selector":"span[data-test='link_span_boobs']","type":"SelectorText"},{"id":"babe-aparencia-busco","multiple":false,"parentSelectors":["babe-link"],"regex":"","selector":"span[data-test='link_span_bust']","type":"SelectorText"},{"id":"babe-cintura","multiple":false,"parentSelectors":["babe-link"],"regex":"","selector":"span[data-test='link_span_waist']","type":"SelectorText"},{"id":"babe-quadril","multiple":false,"parentSelectors":["babe-link"],"regex":"","selector":"span[data-test='link_span_hip']","type":"SelectorText"},{"id":"babe-altura","multiple":false,"parentSelectors":["babe-link"],"regex":"","selector":"span[data-test='link_span_height']","type":"SelectorText"},{"id":"babe-peso","multiple":false,"parentSelectors":["babe-link"],"regex":"","selector":"span[data-test='link_span_weight']","type":"SelectorText"},{"id":"babe-cor-cabelo","multiple":false,"parentSelectors":["babe-link"],"regex":"","selector":"span[data-test='link_span_hair_color']","type":"SelectorText"},{"id":"babe-cor-olhos","multiple":false,"parentSelectors":["babe-link"],"regex":"","selector":"span[data-test='link_span_eye_color']","type":"SelectorText"},{"id":"babe-piercing","multiple":false,"parentSelectors":["babe-link"],"regex":"","selector":"span[data-test='link_span_piercings']","type":"SelectorText"},{"id":"babe-tatuagem","multiple":false,"parentSelectors":["babe-link"],"regex":"","selector":"span[data-test='link_span_tattoos']","type":"SelectorText"},{"id":"babe-info-adcional","multiple":false,"parentSelectors":["babe-link"],"regex":"","selector":"p.text-left","type":"SelectorText"}]}
+{
+    "_id": "freeones-babes",
+    "startUrl": [
+        "https://www.freeones.pt/babes"
+    ],
+    "selectors": [
+        {
+            "id": "babe-link",
+            "multiple": true,
+            "parentSelectors": [
+                "_root",
+                "pagination"
+            ],
+            "selector": "a.teaser__link",
+            "type": "SelectorLink"
+        },
+        {
+            "id": "pagination",
+            "paginationType": "auto",
+            "parentSelectors": [
+                "_root",
+                "pagination"
+            ],
+            "selector": "a.next",
+            "type": "SelectorPagination"
+        },
+        {
+            "clickElementSelector": "button.btn-outline.btn-block",
+            "clickElementUniquenessType": "uniqueText",
+            "clickType": "clickOnce",
+            "delay": 2000,
+            "discardInitialElements": "do-not-discard",
+            "id": "saiba-mais-clck",
+            "multiple": true,
+            "parentSelectors": [
+                "babe-link"
+            ],
+            "selector": ".js-read-more-calc-component div.d-flex",
+            "type": "SelectorElementClick"
+        },
+        {
+            "id": "babe-nome",
+            "multiple": false,
+            "parentSelectors": [
+                "babe-link"
+            ],
+            "regex": "",
+            "selector": "span[data-test='link_span_name']",
+            "type": "SelectorText"
+        },
+        {
+            "id": "babe-apelido",
+            "multiple": false,
+            "parentSelectors": [
+                "babe-link"
+            ],
+            "regex": "",
+            "selector": "div.profile-meta-item:nth-of-type(1) li:nth-of-type(2) span:nth-of-type(2)",
+            "type": "SelectorText"
+        },
+        {
+            "id": "babe-image",
+            "multiple": false,
+            "parentSelectors": [
+                "babe-link"
+            ],
+            "selector": ".dashboard-image-large img",
+            "type": "SelectorImage"
+        },
+        {
+            "id": "babe-nascimento",
+            "multiple": false,
+            "parentSelectors": [
+                "babe-link"
+            ],
+            "selector": "a[data-test='link_dateOfBirth']",
+            "type": "SelectorLink"
+        },
+        {
+            "id": "babe-signo",
+            "multiple": false,
+            "parentSelectors": [
+                "babe-link"
+            ],
+            "regex": "",
+            "selector": "a[data-test='link_zodiac']",
+            "type": "SelectorText"
+        },
+        {
+            "id": "babe-profissao",
+            "multiple": false,
+            "parentSelectors": [
+                "babe-link"
+            ],
+            "regex": "",
+            "selector": "div.profile-meta-item:nth-of-type(1) li:nth-of-type(8) span:nth-of-type(2)",
+            "type": "SelectorText"
+        },
+        {
+            "id": "babe-estatus-carreira",
+            "multiple": false,
+            "parentSelectors": [
+                "babe-link"
+            ],
+            "regex": "",
+            "selector": "span[data-test='link_span_careerStatus']",
+            "type": "SelectorText"
+        },
+        {
+            "id": "babe-inicio-carreira",
+            "multiple": false,
+            "parentSelectors": [
+                "babe-link"
+            ],
+            "regex": "",
+            "selector": "span[data-test='link_span_careerStart']",
+            "type": "SelectorText"
+        },
+        {
+            "id": "babe-fim-carreira",
+            "multiple": false,
+            "parentSelectors": [
+                "babe-link"
+            ],
+            "regex": "",
+            "selector": "li:nth-of-type(11) span.color-text-dark",
+            "type": "SelectorText"
+        },
+        {
+            "id": "babe-vidamorte",
+            "multiple": false,
+            "parentSelectors": [
+                "babe-link"
+            ],
+            "regex": "",
+            "selector": "li:nth-of-type(12) span.color-text-dark",
+            "type": "SelectorText"
+        },
+        {
+            "id": "babe-cidade-nascimento",
+            "multiple": false,
+            "parentSelectors": [
+                "babe-link"
+            ],
+            "regex": "",
+            "selector": "a:nth-of-type(1) span[data-test='link_span_placeOfBirth']",
+            "type": "SelectorText"
+        },
+        {
+            "id": "babe-estado-nascimento",
+            "multiple": false,
+            "parentSelectors": [
+                "babe-link"
+            ],
+            "regex": "",
+            "selector": "a:nth-of-type(2) span[data-test='link_span_placeOfBirth']",
+            "type": "SelectorText"
+        },
+        {
+            "id": "babe-pais-nascimento",
+            "multiple": false,
+            "parentSelectors": [
+                "babe-link"
+            ],
+            "regex": "",
+            "selector": "a:nth-of-type(3) span[data-test='link_span_placeOfBirth']",
+            "type": "SelectorText"
+        },
+        {
+            "id": "babe-naciionalidade",
+            "multiple": false,
+            "parentSelectors": [
+                "babe-link"
+            ],
+            "regex": "",
+            "selector": "span[data-test='link_span_nationality']",
+            "type": "SelectorText"
+        },
+        {
+            "id": "babe-aparencia-etnia",
+            "multiple": false,
+            "parentSelectors": [
+                "babe-link"
+            ],
+            "regex": "",
+            "selector": "span[data-test='link_span_ethnicity']",
+            "type": "SelectorText"
+        },
+        {
+            "id": "babe-aparencia-silicone",
+            "multiple": false,
+            "parentSelectors": [
+                "babe-link"
+            ],
+            "regex": "",
+            "selector": "span[data-test='link_span_boobs']",
+            "type": "SelectorText"
+        },
+        {
+            "id": "babe-aparencia-busco",
+            "multiple": false,
+            "parentSelectors": [
+                "babe-link"
+            ],
+            "regex": "",
+            "selector": "span[data-test='link_span_bust']",
+            "type": "SelectorText"
+        },
+        {
+            "id": "babe-cintura",
+            "multiple": false,
+            "parentSelectors": [
+                "babe-link"
+            ],
+            "regex": "",
+            "selector": "span[data-test='link_span_waist']",
+            "type": "SelectorText"
+        },
+        {
+            "id": "babe-quadril",
+            "multiple": false,
+            "parentSelectors": [
+                "babe-link"
+            ],
+            "regex": "",
+            "selector": "span[data-test='link_span_hip']",
+            "type": "SelectorText"
+        },
+        {
+            "id": "babe-altura",
+            "multiple": false,
+            "parentSelectors": [
+                "babe-link"
+            ],
+            "regex": "",
+            "selector": "span[data-test='link_span_height']",
+            "type": "SelectorText"
+        },
+        {
+            "id": "babe-peso",
+            "multiple": false,
+            "parentSelectors": [
+                "babe-link"
+            ],
+            "regex": "",
+            "selector": "span[data-test='link_span_weight']",
+            "type": "SelectorText"
+        },
+        {
+            "id": "babe-cor-cabelo",
+            "multiple": false,
+            "parentSelectors": [
+                "babe-link"
+            ],
+            "regex": "",
+            "selector": "span[data-test='link_span_hair_color']",
+            "type": "SelectorText"
+        },
+        {
+            "id": "babe-cor-olhos",
+            "multiple": false,
+            "parentSelectors": [
+                "babe-link"
+            ],
+            "regex": "",
+            "selector": "span[data-test='link_span_eye_color']",
+            "type": "SelectorText"
+        },
+        {
+            "id": "babe-piercing",
+            "multiple": false,
+            "parentSelectors": [
+                "babe-link"
+            ],
+            "regex": "",
+            "selector": "span[data-test='link_span_piercings']",
+            "type": "SelectorText"
+        },
+        {
+            "id": "babe-tatuagem",
+            "multiple": false,
+            "parentSelectors": [
+                "babe-link"
+            ],
+            "regex": "",
+            "selector": "span[data-test='link_span_tattoos']",
+            "type": "SelectorText"
+        },
+        {
+            "id": "babe-info-adcional",
+            "multiple": false,
+            "parentSelectors": [
+                "babe-link"
+            ],
+            "regex": "",
+            "selector": "p.text-left",
+            "type": "SelectorText"
+        }
+    ]
+}
